@@ -13,6 +13,7 @@
 		34000CF01BC252D700A0E553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34000CEE1BC252D700A0E553 /* Main.storyboard */; };
 		34000CF21BC252D700A0E553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34000CF11BC252D700A0E553 /* Assets.xcassets */; };
 		34000CF51BC252D700A0E553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34000CF31BC252D700A0E553 /* LaunchScreen.storyboard */; };
+		34FD963D1BC293E60026EB82 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD963C1BC293E60026EB82 /* MyViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		34000CF11BC252D700A0E553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34000CF41BC252D700A0E553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34000CF61BC252D700A0E553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD963B1BC293E60026EB82 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		34FD963C1BC293E60026EB82 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				34000CE91BC252D700A0E553 /* AppDelegate.m */,
 				34000CEB1BC252D700A0E553 /* ViewController.h */,
 				34000CEC1BC252D700A0E553 /* ViewController.m */,
+				34FD963B1BC293E60026EB82 /* MyViewController.h */,
+				34FD963C1BC293E60026EB82 /* MyViewController.m */,
 				34000CEE1BC252D700A0E553 /* Main.storyboard */,
 				34000CF11BC252D700A0E553 /* Assets.xcassets */,
 				34000CF31BC252D700A0E553 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				34000CED1BC252D700A0E553 /* ViewController.m in Sources */,
 				34000CEA1BC252D700A0E553 /* AppDelegate.m in Sources */,
+				34FD963D1BC293E60026EB82 /* MyViewController.m in Sources */,
 				34000CE71BC252D700A0E553 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +305,7 @@
 				34000CFB1BC252D700A0E553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
