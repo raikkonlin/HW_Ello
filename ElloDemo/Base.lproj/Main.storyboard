@@ -101,7 +101,7 @@
         <!--My View Controller-->
         <scene sceneID="K18-zn-PzJ">
             <objects>
-                <viewController id="zgl-li-fej" customClass="MyViewController" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="zgl-li-fej" customClass="MyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WvB-tL-KFi"/>
                         <viewControllerLayoutGuide type="bottom" id="HlA-lb-aHU"/>
